@@ -30,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 0px 0px 50px white;
 }
 
 .element{
@@ -46,67 +47,66 @@
     /* background-color: brown; */
     grid-area: elem2;
     background-image: url(https://img1.goodfon.ru/wallpaper/nbig/5/9d/lamborghini-sesto-elemento-5572.jpg);
-
 }
 
 .container__elem3 {
     /* background-color: tomato; */
     grid-area: elem3;
     background-image: url(https://img2.goodfon.ru/wallpaper/nbig/b/a3/devushka-volk-kosichki-indianka.jpg);
-
 }
 .container__elem4 {
     /* background-color: thistle; */
     grid-area: elem4;
     background-image: url(https://img5.goodfon.ru/original/1920x1080/4/13/mummy-teeth-funny-simple-background-artwork-digital-art-mini.jpg);
-
 }
 .container__elem5 {
     /* background-color: slategrey; */
     grid-area: elem5;
     background-image: url(https://img5.goodfon.ru/original/1920x1200/e/1e/minimalizm-karandashy-fon.jpg);
-
-    
 }
 .container__elem6 {
     /* background-color: slateblue; */
     grid-area: elem6;
     background-image: url(https://img5.goodfon.ru/original/2200x1467/d/93/karty-retro-minimalizm.jpg);
-
 }
 .container__elem7 {
     /* background-color: cornflowerblue; */
     grid-area: elem7;
     background-image: url(https://img4.goodfon.ru/original/3840x2160/4/b1/salatovo-izumrudnyi-salatovyi-izumrudnyi-tsvet-morskoi-volny.jpg);
-
 }
+
 .container__elem8 {
     /* background-color: darkcyan; */
     grid-area: elem8;
     height: 100%;
     background-image: url(https://img2.goodfon.ru/original/2560x1440/4/c3/kub-kubik-chernoe-rozovoe.jpg);
 }
+
 .container__elem9 {
     /* background-color: indigo; */
     grid-area: elem9;
     background-image: url(https://img1.goodfon.ru/original/1600x1200/4/c0/ukazatel-minimalizm-vektor.jpg);
 }
+
 .container__elem10 {
     /* background-color: olive; */
     grid-area: elem10;
     background-image: url(https://img2.goodfon.ru/original/1920x1200/e/6c/spongebob-spanch-bob-bape.jpg);
 }
+
 .container__elem11 {
     /* background-color: navy; */
     grid-area: elem11;
     background-image: url(https://img5.goodfon.ru/original/1920x1080/0/b4/ghost-fear-scary-simple-background-blue-background-artwork-d.jpg);
 }
+
 .footer {
     /* background-color: mediumslateblue; */
     grid-area: footer;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 0px 0px 50px white;
 }
 
 .left-gap{
