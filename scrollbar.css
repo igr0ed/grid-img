@@ -1,0 +1,20 @@
+/* Ширена */
+::-webkit-scrollbar {
+    width: 30px;
+}
+
+/* Скролл */
+::-webkit-scrollbar-thumb {
+    background: #333; 
+    border-radius: 20px;
+}
+
+/* Скролл при наведение */
+::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+}
+
+/* Фон скролла */
+::-webkit-scrollbar-track {
+    background: #161C27; 
+}
