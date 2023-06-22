@@ -3,59 +3,86 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
-    
+    border-radius: 20px;
 }
 
 .container {
     display: grid;
-    height: 100vh;
+    grid-template-columns: 75px repeat(3, 1fr) 75px;
+    grid-template-rows: 300px 1fr 1fr 1fr 1fr 1fr 300px;
+    grid-gap: 25px;
+    grid-template-areas:
+    "lg header header header rg"
+    "lg elem2 elem3 elem3 rg"
+    "lg elem4 elem5 elem6 rg"
+    "lg elem7 elem7 elem7 rg"
+    "lg elem8 elem9 elem10 rg"
+    "lg elem8 elem11 elem11 rg"
+    "lg footer footer footer rg"
+    ;
 
 }
 .header {
     background-color: antiquewhite;
-
+    grid-area: header;
 }
+
+.element{
+    height: 400px;
+}
+
 .container__elem2 {
     background-color: brown;
-
+    grid-area: elem2;
 }
 .container__elem3 {
     background-color: tomato;
-
+    grid-area: elem3;
 }
 .container__elem4 {
     background-color: thistle;
-
+    grid-area: elem4;
 }
 .container__elem5 {
     background-color: slategrey;
-
+    grid-area: elem5;
 }
 .container__elem6 {
     background-color: slateblue;
-
+    grid-area: elem6;
 }
 .container__elem7 {
     background-color: cornflowerblue;
-
+    grid-area: elem7;
 }
 .container__elem8 {
     background-color: darkcyan;
-
+    grid-area: elem8;
+    height: 100%;
 }
 .container__elem9 {
     background-color: indigo;
-
+    grid-area: elem9;
 }
 .container__elem10 {
     background-color: olive;
-
+    grid-area: elem10;
 }
 .container__elem11 {
     background-color: navy;
-
+    grid-area: elem11;
 }
 .footer {
     background-color: mediumslateblue;
+    grid-area: footer;
+}
 
+.left-gap{
+    /* background-color: black; */
+    grid-area: lg;
+}
+
+.right-gap{
+    /* background-color: black; */
+    grid-area: rg;
 }
